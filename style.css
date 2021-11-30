@@ -437,7 +437,7 @@ main {
     width:120px;
     height:70px;
   }
-  .main{
+  main{
     display:flex;
     flex-direction: column;
     padding:5px;
