@@ -419,9 +419,10 @@ main {
     height:40%;
   }
   .logo img {
+    margin-bottom:10%;
     margin-top:10%;
-    width:80%;
-    height:45%;
+    width:90%;
+    height:55%;
     margin:40% 20%;
   }
   .logo{
@@ -435,5 +436,10 @@ main {
   .soc, .verhb, .nizb{
     width:120px;
     height:70px;
+  }
+  .cont{
+    display:flex;
+    flex-direction: column;
+    padding:5px;
   }
 }
