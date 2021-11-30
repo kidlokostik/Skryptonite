@@ -264,7 +264,7 @@ a:hover {
 }
 
 .cont {
-  height: auto;
+  /*height: auto;*/
   background:url(forth.jpg)  ;
   color:#fff;
   opacity:0.95;
@@ -408,6 +408,7 @@ main {
     width:60%;
     align-content:center;
     align-items: center;
+    margin-bottom:0%;
   }
   .verhb{
     margin-bottom:40px;
@@ -443,6 +444,8 @@ main {
     margin-left:20%;
     margin-top:10%;
     text-align: center;
+    justify-content: center;
+    align-content: center;
   }
   .soc, .verhb, .nizb{
     width:120px;
@@ -453,4 +456,5 @@ main {
     flex-direction: column;
     padding:5px;
   }
+  
 }
