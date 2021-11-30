@@ -387,6 +387,17 @@ main {
   }
 }
 @media(max-width:990px){
+ .slider-dots_item{
+    cursor: pointer;
+  height: 5px;
+  width: 44px;
+  margin: 0 2px;
+  background-color: #fff;
+  opacity: 50%;
+  border-radius: 5px;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+ }
   /*blok for VK gmail inst */
   .blok2{
     display:flex;
